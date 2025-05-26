@@ -1,7 +1,6 @@
 namespace TestProjectWithUITest;
 
 [TestFixture]
-[Parallelizable(ParallelScope.All)]
 public class UnitTests: BaseTest
 {
 	[TestCase(typeof(ClickCalculatorLink))]
