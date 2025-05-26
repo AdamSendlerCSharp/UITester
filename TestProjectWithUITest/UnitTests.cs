@@ -1,7 +1,7 @@
 namespace TestProjectWithUITest;
 
 [TestFixture]
-[Parallelizable(ParallelScope.All)]
+//[Parallelizable(ParallelScope.All)]
 public class UnitTests: BaseTest
 {
 	private static IEnumerable<Type> GetTestScenarios()
